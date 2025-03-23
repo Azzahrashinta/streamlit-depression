@@ -7,7 +7,7 @@ depression_model = pickle.load(open('depression_model.sav', 'rb'))
 # Judul Web
 st.title('Prediksi Depresi')
 
-Gender = st.text_input('Gender (male = 1 and female = 2)')
+Gender = st.text_input('Gender (male = 1 and female = 0)')
 
 Age = st.text_input('Age')
 
