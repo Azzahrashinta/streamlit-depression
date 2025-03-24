@@ -15,7 +15,7 @@ AcademicPressure = st.text_input('Academic Pressure (1(low) to 5(high))')
 
 StudySatisfaction = st.text_input('Study Satification (1(low) to 5(high))')
 
-SleepDuration = st.text_input('Sleep Duration')
+SleepDuration = st.text_input('Sleep Duration (5-6 hours = 0, 7-8 hours = 1, less than 5 hours = 2, more than 8 hours = 3)')
 
 DietaryHabits = st.text_input('Dietary Habits (unhealthy = 2, moderate = 1, and healthy = 0)')
 
